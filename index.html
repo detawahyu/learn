@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
     <title>learn</title>
 </head>
 <body>
-    
+    <form>
+        <ul>
+            <li><label for="name">Name</label><input class="kolom" id="name" type="text" placeholder="Name"/></li>
+            <li><label for="email">Email</label><input class="kolom" id="email" type="Email" placeholder="Email"/></li> 
+            <li><label for="phone">Phone</label><input class="kolom" id="phone" type="tel" placeholder="Phone"/></li>
+            <li><label for="gender">Gender</label>
+                <input type="radio" class="gender" name="gender"/> Male
+                <input type="radio" class="gender" name="gender"/> Female
+            </li>
+            <li><label for="addres">Address</label><input class="kolom" id="addres" type="text" placeholder="Address"/></li>  
+            <input id="reset" type="reset"/> <input id="submit" type="submit"/>   
+        </ul>
+    </form>
 </body>
 </html>
